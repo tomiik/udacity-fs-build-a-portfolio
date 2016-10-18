@@ -1,0 +1,112 @@
+div {
+}
+
+
+#header {
+  position: relative;
+  text-transform: uppercase;
+  color: #2d3c49;
+  overflow: auto;
+}
+
+#header-logo {
+  max-width: 90px;
+  width: 10%;
+}
+
+#header-name {
+  font-weight: 300;
+  font-size: 60px;
+}
+
+#header-title {
+  font-weight: 400;
+  font-size: 23px;
+
+}
+
+#header-right {
+  float: right;
+  text-align: right;
+}
+
+
+
+
+#featured-work {
+  margin-bottom: 10px;
+  font-weight: 300;
+  font-size: 40px;
+  color: #7d97ad;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+#top-img {
+  width: 100%;
+}
+
+#top-img-box {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  height: 400px;
+  overflow: hidden;
+}
+
+.menu-box {
+  overflow: auto;
+}
+
+.menu-img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 200px;
+}
+
+.menu-title {
+  text-transform: uppercase;
+  color: #2d3c49;
+  font-weight: 200;
+  font-size: 40px;
+  font-family: 'Ubuntu', sans-serif;
+
+
+}
+
+.menu-url {
+  color: #2d3c49;
+  line-height: 2em;
+  font-weight: 200;
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#menu-container {
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+
+    box-pack:justify;
+    -webkit-box-pack:justify;
+    -moz-box-pack:justify;
+
+    flex-flow: row wrap;
+}
+
+
+
+.menu-box {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+
+hr {
+  color: #7d97ad;
+  border-width: 4px 0 0 0;
+}
+
+* {
+  font-family: 'Quicksand', sans-serif;
+}
