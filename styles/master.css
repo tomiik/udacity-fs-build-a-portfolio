@@ -1,6 +1,7 @@
-div {
+#container {
+  width: 90%;
+  margin: auto;
 }
-
 
 #header {
   position: relative;
@@ -22,7 +23,6 @@ div {
 #header-title {
   font-weight: 400;
   font-size: 23px;
-
 }
 
 #header-right {
@@ -30,16 +30,13 @@ div {
   text-align: right;
 }
 
-
-
-
 #featured-work {
+  position: static;
   margin-bottom: 10px;
   font-weight: 300;
   font-size: 40px;
   color: #7d97ad;
   font-family: 'Roboto', sans-serif;
-
 }
 
 #top-img {
@@ -49,57 +46,50 @@ div {
 #top-img-box {
   margin-top: 2em;
   margin-bottom: 2em;
-  height: 400px;
+  max-height: 400px;
   overflow: hidden;
 }
-
-.menu-box {
-  overflow: auto;
-}
-
-.menu-img {
-  width: auto;
-  max-width: 100%;
-  height: auto;
-  max-height: 200px;
-}
-
-.menu-title {
-  text-transform: uppercase;
-  color: #2d3c49;
-  font-weight: 200;
-  font-size: 40px;
-  font-family: 'Ubuntu', sans-serif;
-
-
-}
-
-.menu-url {
-  color: #2d3c49;
-  line-height: 2em;
-  font-weight: 200;
-  font-size: 16px;
-  font-family: 'Ubuntu', sans-serif;
-}
-
-#menu-container {
-    display: flex;
-    display: -webkit-flex;
-    display: -moz-flex;
-
-    box-pack:justify;
-    -webkit-box-pack:justify;
-    -moz-box-pack:justify;
-
-    flex-flow: row wrap;
-}
-
-
 
 .menu-box {
   width: 30%;
   margin: auto;
   text-align: center;
+  overflow: auto;
+}
+
+.menu-img {
+  margin: auto;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 230px;
+}
+
+.menu-img-box {
+  position: relative;
+  width: auto;
+}
+
+.menu-title {
+  position: static;
+  text-transform: uppercase;
+  color: #2d3c49;
+  font-weight: 300;
+  font-size: 40px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.menu-url {
+  color: #2d3c49;
+  line-height: 2em;
+  font-weight: 300;
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#menu-container {
+  display: flex;
+  flex-flow: row wrap;
 }
 
 hr {
@@ -109,4 +99,69 @@ hr {
 
 * {
   font-family: 'Quicksand', sans-serif;
+}
+
+@media screen and (max-width: 600px){
+  #header-name {
+    font-weight: 300;
+    font-size: 40px;
+  }
+
+  #header-title {
+    font-weight: 400;
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 1080px){
+  .menu-title {
+    font-size: 30px;
+  }
+
+  .menu-url {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 800px){
+  .menu-box {
+    width: 80%;
+  }
+
+  .menu-img-box {
+    max-height: 400px;
+  }
+
+  .menu-title {
+    font-size: 60px;
+  }
+
+  .menu-url {
+    font-size: 24px;
+  }
+
+  .menu-img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 400px;
+  }
+
+  .menu-box {
+    margin: auto;
+    margin-bottom: 1em;
+    margin-top: 1em;
+  }
+}
+
+@media screen and (max-width: 640px){
+  .menu-title {
+    font-size: 40px;
+  }
+
+  .menu-url {
+    font-size: 15px;
+  }
 }
