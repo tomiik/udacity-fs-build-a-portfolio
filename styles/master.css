@@ -1,49 +1,49 @@
-#container {
+.container {
   width: 90%;
   margin: auto;
 }
 
-#header {
+.header {
   position: relative;
   text-transform: uppercase;
   color: #2d3c49;
   overflow: auto;
 }
 
-#header-logo {
+.header-logo {
   max-width: 90px;
   width: 10%;
 }
 
-#header-name {
+.header-name {
   font-weight: 300;
   font-size: 60px;
 }
 
-#header-title {
+.header-title {
   font-weight: 400;
   font-size: 23px;
 }
 
-#header-right {
+.header-right {
   float: right;
   text-align: right;
 }
 
-#featured-work {
+.featured-work {
   position: static;
   margin-bottom: 10px;
   font-weight: 300;
   font-size: 40px;
   color: #7d97ad;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-#top-img {
+.top-img {
   width: 100%;
 }
 
-#top-img-box {
+.top-img-box {
   margin-top: 2em;
   margin-bottom: 2em;
   max-height: 400px;
@@ -76,7 +76,7 @@
   color: #2d3c49;
   font-weight: 300;
   font-size: 40px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .menu-url {
@@ -84,10 +84,10 @@
   line-height: 2em;
   font-weight: 300;
   font-size: 16px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
-#menu-container {
+.menu-container {
   display: flex;
   flex-flow: row wrap;
 }
@@ -98,16 +98,16 @@ hr {
 }
 
 * {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 @media screen and (max-width: 600px){
-  #header-name {
+  .header-name {
     font-weight: 300;
     font-size: 40px;
   }
 
-  #header-title {
+  .header-title {
     font-weight: 400;
     font-size: 14px;
   }
